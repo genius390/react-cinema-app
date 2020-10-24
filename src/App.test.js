@@ -1,6 +1,4 @@
 /* eslint-disable no-undef */
-/* eslint quotes: [2, "double"] */
-/* eslint-env es6 */
 
 import React from "react";
 import { render } from "@testing-library/react";

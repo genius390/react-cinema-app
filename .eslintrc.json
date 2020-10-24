@@ -3,7 +3,10 @@
     "browser": true,
     "es6": true
   },
-  "extends": ["plugin:react/recommended", "standard"],
+  "extends": [
+    "plugin:react/recommended",
+    "standard"
+  ],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -20,14 +23,26 @@
       "version": "16.0"
     }
   },
-  "plugins": ["react"],
+  "plugins": [
+    "react"
+  ],
   "rules": {
-    "semi": [2, "always"],
+    "semi": [
+      2,
+      "always"
+    ],
     "space-before-function-paren": [
       0,
-      { "anonymous": "always", "named": "always" }
+      {
+        "anonymous": "always",
+        "named": "always"
+      }
     ],
     "camelcase": 0,
-    "no-return-assign": 0
+    "no-return-assign": 0,
+    "quotes": [
+      2,
+      "double"
+    ]
   }
 }
