@@ -1,3 +1,6 @@
+/* eslint quotes: [2, "double"] */
+/* eslint-env es6 */
+
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
